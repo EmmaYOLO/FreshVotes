@@ -19,6 +19,10 @@ public class DashboardController {
 //        本来是要这样写的，但spring为我们省略了哪些，把省略的部分直接作为defaul值了。
         return "index";
     }
+    @GetMapping("/dashboard")
+    public String dashboard(){
+        return "dashboard";
+    }
 
 
 
